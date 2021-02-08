@@ -9,6 +9,6 @@ La API retorna el equivalente al tipo de cambio según las monedas seleccionadas
 
 ## Funcionalidad 📦
 
-* Aplica un tipo de cambio según la moneda de origen y destino
-* Como entrada recibe el monto, moneda origen, moneda destino
-* Consulte el servicio de divisa para obtener el listado de divisas disponibles
+* Aplica el tipo de cambio según la moneda de origen y destino ingresados.
+* Como entrada recibe el monto, moneda origen, moneda destino.
+* Consulte el servicio de divisa para obtener la lista de divisas (monedas) disponibles
