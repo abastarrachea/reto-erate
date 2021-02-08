@@ -1,6 +1,5 @@
 package bcp.reto.erate.web;
 
-import bcp.reto.erate.domain.dto.Divisa;
 import bcp.reto.erate.domain.dto.Exchange;
 import bcp.reto.erate.domain.dto.ExchangeRate;
 import bcp.reto.erate.domain.dto.ExchangeRateDTOPK;
@@ -12,7 +11,6 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.List;
 import java.util.Optional;
 
 @Slf4j
@@ -21,7 +19,6 @@ import java.util.Optional;
 @RequiredArgsConstructor
 public class ExchangeRateController {
 
-    //@Autowired
     private final ExchangeRateService exchangeRateService;
 
     private final DivisaService divisaService;
